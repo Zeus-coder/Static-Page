@@ -3,7 +3,7 @@
 
 export default function PageContent() {
     return(
-        <div>
+        <div className="fun-fact">
             <h1>Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
