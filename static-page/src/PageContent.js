@@ -1,12 +1,8 @@
-const myDiv = document.getElementById("root");
 
 
 
-
-function StaticPage () {
-    return (
-    <div>
-        <img src="1611079-removebg-preview.png"></img>
+export default function PageContent() {
+    return(
         <div>
             <h1>Fun facts about React</h1>
             <ul>
@@ -17,7 +13,5 @@ function StaticPage () {
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
         </div>
-    </div>
     )
-}
-ReactDOM.render(<StaticPage/>, myDiv);
+};
