@@ -16,5 +16,4 @@ const staticPage =(
     </div>
 );
 
-
 ReactDOM.render(staticPage, myDiv);
