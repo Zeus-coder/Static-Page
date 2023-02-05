@@ -1,12 +1,12 @@
 
-import '../src/1611079-removebg-preview.png';
+import logo from '../src/logo.png'
 import React from "react";
 
 export default function Header() {
     return(
         <header className="header">
             <nav className= "nav">
-                <img src='/src/1611079-removebg-preview.png' alt="myimage"></img>
+                <img src={logo}alt="myimage"></img>
                 <ul className="nav-items">
                     <li><a href="#Pricing">Pricing</a></li>
                     <li><a href="#About">About</a></li>
