@@ -3,7 +3,7 @@ const myDiv = document.getElementById("root");
 
 
 
-function TemporaryName () {
+function StaticPage () {
     return (
     <div>
         <img src="1611079-removebg-preview.png"></img>
@@ -20,4 +20,4 @@ function TemporaryName () {
     </div>
     )
 }
-ReactDOM.render(<TemporaryName/>, myDiv);
+ReactDOM.render(<StaticPage/>, myDiv);
